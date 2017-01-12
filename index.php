@@ -30,7 +30,7 @@
 									<a href="index.php?param_url=<?=dirname($_GET['param_url'])?>/">
 										<img src="image/blob_dossier2.svg"/>
 									</a>	
-									<a class="file_name" id="<?=$dir[$i]?>" href="index.php?param_url=<?=dirname($_GET['param_url'])?>/"><?=$dir[$i]?></a>
+									<a class="file_name" id="<?=$dir[$i]?>" href="index.php?param_url=<?=dirname($_GET['param_url'])?>/">Retour</a>
 								</div>
 							<?php } else if($dir[$i] != "commun" && $dir[$i] != "."){ ?>
 								<div class="dossier">
@@ -57,6 +57,11 @@
 				<div class="explo" id="reception">
 				</div>
 			</main>
+			
+			<div class="url">
+				<p><?=$base_url?></p>
+			</div>
+			
 		</body>
 	
 	</html>

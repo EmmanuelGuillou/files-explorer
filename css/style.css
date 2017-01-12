@@ -29,7 +29,8 @@ header {
 	/* border-style: solid; */
 	/* border-width: 5px; */
 	position: relative;
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 }
 
 header p{
@@ -72,8 +73,9 @@ main {
 	border-bottom-left-radius: 20px;
 	vertical-align: middle;
 	background-image: url("../image/coule_slime2.svg");
-	background-size: cover;
 	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 }
 
 .explo {
@@ -105,4 +107,21 @@ main {
 	margin: 2px;
 	font-size: 75%;
 	cursor: url("../image/mouse_slime.svg"), auto;
+}
+
+.url {
+	margin: auto;
+	text-align: center;
+	background-image: url("../image/coule_slime2.svg"), url("../image/coule_slime2_top.svg");
+	background-position: bottom, top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 30%;
+	background-color: #74886d;
+}
+
+.url p{
+	margin: 5% 5% 5% 5%;
+	padding: 3% 5% 3% 5%;
+	color: #6db860;
 }
