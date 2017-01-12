@@ -17,17 +17,16 @@ body {
 }
 
 header {
+	box-sizing:border-box;
 	width: 75%;
 	margin: auto;
 	background-image: url("../image/coule_slime.svg");
-	background-color: #74886d;
-	padding: 1%;
+	background-color: black;
+	/* background-color: #74886d; */
+	padding: 1.5%;
 	margin-top: 5%;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
-	/* border-color: pink; */
-	/* border-style: solid; */
-	/* border-width: 5px; */
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -64,11 +63,12 @@ h1 {
 }
 
 main {
+	box-sizing:border-box;
 	margin:0;
 	width: 75%;
 	margin: auto;
-	background-color: #74886d;
-	padding: 1%;
+	background-color: black;
+	padding: 1.5%;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	vertical-align: middle;
@@ -78,9 +78,14 @@ main {
 	background-size: 100% auto;
 }
 
-.explo {
-	width: 50%;
-}
+/* .explo { */
+	/* width: 50%; */
+	/* -webkit-padding: 1%; */
+/* } */
+
+/* .box { */
+	/* -webkit-padding: 2%; */
+/* } */
 
 
 .dossier svg {
@@ -110,18 +115,21 @@ main {
 }
 
 .url {
+	box-sizing:border-box;
 	margin: auto;
+	margin-top: 1%;
 	text-align: center;
 	background-image: url("../image/coule_slime2.svg"), url("../image/coule_slime2_top.svg");
 	background-position: bottom, top;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	width: 30%;
-	background-color: #74886d;
+	background-color: black;
+	padding: 0.5% 0.5% 0.5% 0.5%;
 }
 
 .url p{
+	box-sizing:border-box;
 	margin: 5% 5% 5% 5%;
-	padding: 3% 5% 3% 5%;
 	color: #6db860;
 }

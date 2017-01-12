@@ -14,10 +14,12 @@
 		
 		<body>
 			<header>
-				<img src="image/captain_slime.svg"/>
-				<div class="title">
-					<h1>Blobby</h1>
-					<p>l'exporateur qui colle</p>
+				<div class="box">
+					<img src="image/captain_slime.svg"/>
+					<div class="title">
+						<h1>Blobby</h1>
+						<p>l'exporateur qui colle</p>
+					</div>
 				</div>
 			</header>
 			
