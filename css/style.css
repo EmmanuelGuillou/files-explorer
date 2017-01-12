@@ -78,10 +78,11 @@ main {
 	background-size: 100% auto;
 }
 
-/* .explo { */
-	/* width: 50%; */
-	/* -webkit-padding: 1%; */
-/* } */
+.explo {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
 
 /* .box { */
 	/* -webkit-padding: 2%; */

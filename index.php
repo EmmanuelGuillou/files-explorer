@@ -7,7 +7,9 @@
 			<title>Explorateur de fichiers</title>
 			<meta name="description" content="description"/>
             <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
-			<link rel="stylesheet" type="text/css" href="css/style.css" />
+			<link rel="stylesheet" type="text/css" href="css/style.css"/>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/script.js"></script>
 		</head>
 		
 		<!--This is a comment. Comments are not displayed in the browserchamps form : nom prenom mot de passe téléphone E-mail Genre un choix multiple et une liste-->
@@ -29,17 +31,17 @@
 						<?php if(is_dir($base_url.$dir[$i])){ ?>
 							<?php if($dir[$i] == ".."){ ?>
 								<div class="dossier">
-									<a href="index.php?param_url=<?=dirname($_GET['param_url'])?>/">
+									<a class="folder_name" href="index.php?param_url=<?=dirname($_GET['param_url'])?>/">
 										<img src="image/blob_dossier2.svg"/>
 									</a>	
-									<a class="file_name" id="<?=$dir[$i]?>" href="index.php?param_url=<?=dirname($_GET['param_url'])?>/">Retour</a>
+									<a class="folder_name" id="<?=$dir[$i]?>" href="index.php?param_url=<?=dirname($_GET['param_url'])?>/">Retour</a>
 								</div>
 							<?php } else if($dir[$i] != "commun" && $dir[$i] != "."){ ?>
 								<div class="dossier">
-									<a href="index.php?param_url=<?=$_GET["param_url"].$dir[$i]?>/">
+									<a class="folder_name" href="index.php?param_url=<?=$_GET["param_url"].$dir[$i]?>/">
 										<img src="image/blob_dossier.svg"/>
 									<a>
-									<a class="lien_dossier" href="index.php?param_url=<?=$_GET["param_url"].$dir[$i]?>/"> <?=$dir[$i]?> </a>
+									<a class="folder_name" href="index.php?param_url=<?=$_GET["param_url"].$dir[$i]?>/"> <?=$dir[$i]?> </a>
 								</div>	
 							<?php } ?>
 						<?php } else { ?>	
@@ -56,7 +58,7 @@
 					<?php } ?>
 				</div>
 				
-				<div class="explo" id="reception">
+				<div class="explo" id="ajaxx">
 				</div>
 			</main>
 			
