@@ -7,10 +7,6 @@ html{
 	src: url("../font/comic.ttf");
 }
 
-/* .module { */
-  /* cursor: url(), auto;	 */
-/* } */
-
 body {
 	margin:0;
 	background-image: url("../image/background_blob.svg");
@@ -27,12 +23,19 @@ header {
 	background-color: #74886d;
 	padding: 1%;
 	margin-top: 5%;
-	border-radius: 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
 	/* border-color: pink; */
 	/* border-style: solid; */
 	/* border-width: 5px; */
 	position: relative;
-	background-size: contain;
+	background-size: cover;
+}
+
+header p{
+	margin: 0;
+	color: #a2cd8e;
+	font-size: 80%;
 }
 
 .bulle {
@@ -59,28 +62,24 @@ h1 {
 	color: #a2cd8e;
 }
 
-h2 {
-	color: #1e4c15;
-	text-align: center;
-	font-family: "comic";
-	font-size: 200%;
-	letter-spacing: 2px;
-	margin: 0;
-}
-
 main {
 	margin:0;
 	width: 75%;
 	margin: auto;
-	background-color: #4a5347;
+	background-color: #74886d;
 	padding: 1%;
-	border-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
 	vertical-align: middle;
+	background-image: url("../image/coule_slime2.svg");
+	background-size: cover;
+	background-position: bottom;
 }
 
-.dossier {
-	height: 20px;
+.explo {
+	width: 50%;
 }
+
 
 .dossier svg {
 	margin: 5px 0 0 0;
