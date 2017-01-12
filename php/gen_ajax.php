@@ -24,7 +24,7 @@
 						 width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
 					<circle opacity="0.8" fill="#D2E5C1" stroke="#A1CD8A" stroke-width="2" stroke-miterlimit="10" cx="10.16" cy="9.819" r="5.938"/>
 				</svg>
-				<a class="file_name" id="<?=$dir[$i]?>"><?=$dir[$i]?></a>
+				<a class="file_name" download="<?=$dir[$i]?>" href="http://emmanuelg.marmier.codeur.online/<?=$_GET["param_url"].$dir[$i]?>"><?=$dir[$i]?></a>
 			</div>
 		<?php } ?>
 	<?php } ?>
