@@ -7,6 +7,10 @@ html{
 	src: url("../font/comic.otf");
 }
 
+img {
+	vertical-align: bottom;
+}
+
 body {
 	margin:0;
 	background-image: url("../image/background_blob.svg");
@@ -87,13 +91,9 @@ main {
 	vertical-align: top;
 }
 
-/* .box { */
-	/* -webkit-padding: 2%; */
-/* } */
-
 .dossier{
 	position: relative;
-	left: 5%;
+	left: 10%;
 	top :0px;
 }
 
@@ -112,7 +112,7 @@ main {
 
 .fichier{
 	position: relative;
-	left: 5%;
+	left: 10%;
 	top :0px;
 }
 
