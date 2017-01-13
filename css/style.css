@@ -94,10 +94,8 @@ main {
 .dossier{
 	position: relative;
 	left: 5%;
-	vertical-align: top
+	top :0px;
 }
-
-
 
 .dossier svg {
 	margin: 5px 0 0 0;
@@ -115,7 +113,7 @@ main {
 .fichier{
 	position: relative;
 	left: 5%;
-	vertical-align: top
+	top :0px;
 }
 
 .fichier svg {
