@@ -1,4 +1,4 @@
-$(document).ready(function() {	
+$(document).ready(function() {
     $(".folder_name").on("click", function(e){
         e.preventDefault();
         var $a = $(this);

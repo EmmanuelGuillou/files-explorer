@@ -5,6 +5,7 @@ html{
 @font-face{
 	font-family: "comic";
 	src: url("../font/comic.otf");
+	src: url("../font/comic.ttf");
 }
 
 body {
@@ -50,6 +51,7 @@ header div{
 
 .title{
 	width: 70%;
+	width: 30%;
 	display: inline-block;
 }
 
