@@ -1,0 +1,139 @@
+html{
+	cursor: url("../image/mouse_slime.svg"), auto;
+}
+
+@font-face{
+	font-family: "comic";
+	src: url("../font/comic.otf");
+}
+
+body {
+	margin:0;
+	background-image: url("../image/background_blob.svg");
+	font-family: Trebuchet MS;
+	font-weight: lighter;
+	height: 100%;
+	
+}
+
+header {
+	box-sizing:border-box;
+	width: 75%;
+	margin: auto;
+	background-image: url("../image/coule_slime.svg");
+	background-color: black;
+	/* background-color: #74886d; */
+	padding: 1.5%;
+	margin-top: 5%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+header p{
+	margin: 0;
+	color: #a2cd8e;
+	font-size: 80%;
+}
+
+.bulle {
+	position: absolute;
+	left: 85%;
+	top: 2%;
+}
+
+header div{
+	display: inline-block;
+}
+
+.title{
+	width: 70%;
+	display: inline-block;
+}
+
+.title2{
+	display: inline-block;
+}
+
+h1 {
+	margin: auto;
+	color: #a2cd8e;
+	font-family: "comic";
+	letter-spacing: 5px;
+	font-size: 250%;
+}
+
+main {
+	box-sizing:border-box;
+	margin:0;
+	width: 75%;
+	margin: auto;
+	background-color: black;
+	padding: 1.5%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	vertical-align: middle;
+	background-image: url("../image/coule_slime2.svg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.explo {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* .box { */
+	/* -webkit-padding: 2%; */
+/* } */
+
+
+.dossier svg {
+	margin: 5px 0 0 0;
+	vertical-align: bottom;
+}
+
+.dossier a {
+	text-decoration: none;
+	color: #6db860;
+	margin: 2px;
+	font-size: 95%;
+	cursor: url("../image/mouse_slime2.svg"), auto;
+}
+
+.fichier svg {
+	margin: 5px 0 0 15px;
+	vertical-align: bottom;
+}
+
+.fichier a {
+	color: #a0cc8a;
+	text-decoration: none;
+	margin: 2px;
+	font-size: 75%;
+	cursor: url("../image/mouse_slime.svg"), auto;
+}
+
+.url {
+	box-sizing:border-box;
+	margin: auto;
+	margin-top: 1%;
+	text-align: center;
+	background-image: url("../image/coule_slime2.svg"), url("../image/coule_slime2_top.svg");
+	background-position: bottom, top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 30%;
+	background-color: black;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+.url p{
+	box-sizing:border-box;
+	margin: 5% 5% 5% 5%;
+	color: #6db860;
+}
