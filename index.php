@@ -56,8 +56,8 @@
 					<?php } ?>
 				</div>
 				
-				<div class="explo" id="ajaxx">
-				</div>
+				<!--<div class="explo" id="ajaxx">
+				</div>-->
 			</main>
 			
 			<div class="url">

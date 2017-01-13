@@ -93,6 +93,12 @@ main {
 	/* -webkit-padding: 2%; */
 /* } */
 
+.dossier{
+	position: relative;
+	left: 5%;
+}
+
+
 
 .dossier svg {
 	margin: 5px 0 0 0;
@@ -105,6 +111,11 @@ main {
 	margin: 2px;
 	font-size: 95%;
 	cursor: url("../image/mouse_slime2.svg"), auto;
+}
+
+.fichier{
+	position: relative;
+	left: 5%;
 }
 
 .fichier svg {
