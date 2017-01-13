@@ -22,7 +22,6 @@ header {
 	margin: auto;
 	background-image: url("../image/coule_slime.svg");
 	background-color: black;
-	/* background-color: #74886d; */
 	padding: 1.5%;
 	margin-top: 5%;
 	border-top-right-radius: 20px;
@@ -95,6 +94,7 @@ main {
 .dossier{
 	position: relative;
 	left: 5%;
+	vertical-align: top
 }
 
 
@@ -115,6 +115,7 @@ main {
 .fichier{
 	position: relative;
 	left: 5%;
+	vertical-align: top
 }
 
 .fichier svg {

@@ -5,13 +5,6 @@ $(document).ready(function() {
         var $a = $(this);
         var adresse = $a.attr("href");
         var arr = adresse.split('?')[1];
-		
-		// if(arr == "param_url=./"){
-			// arr = arr.slice(11, 12);
-		// }
-		// else if(arr == "param_url=/"){
-			// arr = arr.slice(11);
-		// }
 		var last_tagname = $a.parent().find(":last-child").eq(1).prop("tagName");
 		
 		console.log(last_tagname);
