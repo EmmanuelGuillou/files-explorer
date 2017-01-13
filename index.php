@@ -10,9 +10,7 @@
 			<link rel="stylesheet" type="text/css" href="css/style.css"/>
 			<script src="js/jquery.min.js"></script>
 			<script src="js/script.js"></script>
-		</head>
-		
-		<!--This is a comment. Comments are not displayed in the browserchamps form : nom prenom mot de passe téléphone E-mail Genre un choix multiple et une liste-->
+		</head
 		
 		<body>
 			<header>

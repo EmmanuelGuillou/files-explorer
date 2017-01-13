@@ -5,27 +5,22 @@ $(document).ready(function() {
         var adresse = $a.attr("href");
         var arr = adresse.split('?')[1];
 		console.log(arr);
-		// if(arr == "./"){
-			// arr = arr.slice(1);
-			$.ajax({
-				type : "GET",
-				data: arr,
-				url: "php/gen_ajax.php",
-				success : function(data){
-					$("#ajaxx").html(data);
-				}
-			});
-		// }
-		// else{
-			// $.ajax({
-				// type : "GET",
-				// data: arr,
-				// url: "php/gen_ajax.php",
-				// success : function(data){
-					// $("#ajaxx").html(data);
-				// }
-			// });
-		// }
+		
+		if(arr == "param_url=./"){
+			arr = arr.slice(11, 12);
+		}
+		else if(arr == "param_url=/"){
+			arr = arr.slice(11);
+		}
+		
+		$.ajax({
+			type : "GET",
+			data: arr,
+			url: "php/gen_ajax.php",
+			success : function(data){
+				$("#ajaxx").html(data);
+			}
+		});
     });
 });
 
