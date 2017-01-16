@@ -1,5 +1,5 @@
 $(document).ready(function() {
-     $(document).on("click",".dossier a", function(e){
+     $(document).on("click",".folder_name", function(e){
         e.preventDefault();
 		
         var $a = $(this);
