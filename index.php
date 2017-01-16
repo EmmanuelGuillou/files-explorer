@@ -27,14 +27,7 @@
 				<div class="explo">
 					<?php for($i=0; $i<count($dir); $i++){ ?>
 						<?php if(is_dir($base_url.$dir[$i])){ ?>
-							<?php if($dir[$i] == ".."){ ?>
-								<!--<div class="dossier">
-									<a class="folder_name" href="index.php?param_url=<?=dirname($_GET['param_url'])?>/">
-										<img src="image/blob_dossier2.svg"/>
-									</a>	
-									<a class="folder_name" id="<?=$dir[$i]?>" href="index.php?param_url=<?=dirname($_GET['param_url'])?>/">Retour</a>
-								</div>-->
-							<?php } else if($dir[$i] != "commun" && $dir[$i] != "."){ ?>
+							<?php if($dir[$i] != "commun" && $dir[$i] != "." && $dir[$i] != ".."){ ?>
 								<div class="dossier">
 									<a class="folder_name" href="index.php?param_url=<?=$_GET["param_url"].$dir[$i]?>/">
 										<img src="image/blob_dossier.svg"/>
@@ -55,9 +48,6 @@
 						<?php } ?>
 					<?php } ?>
 				</div>
-				
-				<!--<div class="explo" id="ajaxx">
-				</div>-->
 			</main>
 			
 			<div class="url">
